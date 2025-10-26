@@ -1,0 +1,1 @@
+Place Fabric wallet identities here. If empty, gateway runs in STUB mode.

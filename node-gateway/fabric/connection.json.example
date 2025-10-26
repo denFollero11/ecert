@@ -1,0 +1,29 @@
+{
+  "name": "fabric-network",
+  "version": "1.0.0",
+  "organizations": {
+    "Org1": {
+      "mspid": "Org1MSP",
+      "peers": [
+        "peer0.org1.example.com"
+      ]
+    }
+  },
+  "peers": {
+    "peer0.org1.example.com": {
+      "url": "grpc://localhost:7051"
+    }
+  },
+  "orderers": {
+    "orderer.example.com": {
+      "url": "grpc://localhost:7050"
+    }
+  },
+  "channels": {
+    "mychannel": {
+      "peers": {
+        "peer0.org1.example.com": {}
+      }
+    }
+  }
+}

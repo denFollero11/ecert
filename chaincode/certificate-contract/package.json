@@ -1,0 +1,11 @@
+{
+  "name": "certificate-contract",
+  "version": "1.0.0",
+  "main": "lib/certificateContract.js",
+  "scripts": {
+    "test": "node ./lib/certificateContract.js"
+  },
+  "dependencies": {
+    "fabric-contract-api": "^2.2.0"
+  }
+}
